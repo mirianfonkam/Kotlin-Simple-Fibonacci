@@ -15,15 +15,12 @@ class MainActivity : AppCompatActivity() {
         val btn = findViewById<Button>(R.id.send)
         val fiboOut = findViewById<TextView>(R.id.fiboOut)
 
-        val fiboSize = numIn.text.toString().toIntOrNull() //Issue here
-
         btn.setOnClickListener{
-            var fiboList = fibonacciGenerator(fiboSize)  //Issue here
+            val fiboSize = numIn.text.toString().toIntOrNull() //Issue here
+            val fiboList = fibonacciGenerator(fiboSize)  //Issue here
             fiboOut.text = fiboList.toString()
         }
     }
-
-
 
     //fibonacciGenerator() returns a List of Fibo numbers
     //n is the number of items in the output

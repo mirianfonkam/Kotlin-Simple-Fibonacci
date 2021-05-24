@@ -3,7 +3,7 @@
 ### Description
 This Android application displays the Fibonacci sequence up to the position that the user specifies via EditText.
 
-![Fibonacci Flowchart](https://postimg.cc/QFq16YNG)
+[![Fibonacci Flowchart](https://i.postimg.cc/5NpbjVvQ/Fibo-flowchart.jpg)](https://postimg.cc/SJXwtHgm)
 
 ### Topics Practiced
 * while loop

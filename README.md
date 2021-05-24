@@ -3,6 +3,8 @@
 ### Description
 This Android application displays the Fibonacci sequence up to the position that the user specifies via EditText.
 
+![Fibonacci Flowchart](https://postimg.cc/QFq16YNG)
+
 ### Topics Practiced
 * while loop
 * interative fibonacci algorithm
